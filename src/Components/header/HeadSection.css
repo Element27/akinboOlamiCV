@@ -1,4 +1,6 @@
-
+*{
+    box-sizing: border-box;
+}
 /* styling for all h3 elements on the HeadSection */
 h5 {
     font-size: 1.6rem;
@@ -27,17 +29,13 @@ p{
     margin: 1rem 0;
     padding-bottom: .5rem;
     color:#000;
-    /* border-bottom: 1px solid #000; */
 }
 
 .header_container{
-    /* display: flex;
-    justify-content: space-around;
-    align-items: center; */
+ 
     height: fit-content;
     width: 90vw;
     margin: 20px auto; 
-    /* background-color: #c38b00; */
     padding: 15px;
     box-shadow: 0px 2px 5px 5px #c38b0022 ;
     border-radius: 5px;
@@ -46,11 +44,8 @@ p{
 .header_container .contacts{
     display:flex;
     justify-content: space-between;
+    width: 90%;
     margin: 1.5rem 1rem 0 1rem;
-    /* text-align: left; */
 }
 
 
-/* .header_container .contacts .contact-info{
-
-} */
